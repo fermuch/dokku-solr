@@ -1,9 +1,9 @@
-Forked from: https://bitbucket.org/foldr/dokku-elasticsearch-plugin
+Forked from: https://github.com/robv/dokku-elasticsearch
 
-# Dokku Elasticsearch Plugin
+# Dokku Solr Plugin
 
-The dokku elasticsearch plugin adds an elasticsearch service to your
-dokku stack. (currently using version 90.3 of elasticsearch)
+The dokku solr plugin adds a solr service to your
+dokku stack. (currently using version 3.6.2 of solr)
 
 ## Installation
 
@@ -12,7 +12,7 @@ already installed.
 
 ```
 cd var/lib/dokku/plugins
-git clone https://github.com/robv/dokku-elasticsearch
+git clone https://github.com/fermuch/dokku-solr
 dokku plugins-install
 ```
 
@@ -20,10 +20,9 @@ dokku plugins-install
 
 ```
 $ dokku help
-    es:create <app>
-    es:delete <app>
-    es:info <app>
-    es:link <app>
-    es:logs <app>
-    es:install <plugin> <app>
+    solr:create <app>
+    solr:delete <app>
+    solr:info <app>
+    solr:link <app>
+    solr:logs <app>
 ```
