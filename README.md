@@ -11,7 +11,7 @@ The plugin assumes that [dokku](https://github.com/progrium/dokku) is
 already installed.
 
 ```
-cd var/lib/dokku/plugins
+cd /var/lib/dokku/plugins
 git clone https://github.com/fermuch/dokku-solr
 dokku plugins-install
 ```
