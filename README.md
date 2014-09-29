@@ -1,11 +1,19 @@
 Forked from: https://github.com/robv/dokku-elasticsearch
 
-# Dokku Solr Plugin
+# NOTE!
+
+This repo has moved.
+
+For a maintained version, please go to  [https://github.com/MichaelSp/dokku-solr-plugin](MichaelSp/dokku-solr-plugin)
+
+
+
+## Dokku Solr Plugin
 
 The dokku solr plugin adds a solr service to your
 dokku stack. (currently using version 3.6.2 of solr)
 
-## Installation
+### Installation
 
 The plugin assumes that [dokku](https://github.com/progrium/dokku) is
 already installed.
@@ -16,7 +24,7 @@ git clone https://github.com/fermuch/dokku-solr
 dokku plugins-install
 ```
 
-## Commands
+### Commands
 
 ```
 $ dokku help
